@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+     <script type="text/javascript" src="../js/events.js"></script>
+</head>
+<body id="donatebody">
+    <header>
+        <img src="../images/logo.png">
+        <h1>CharitAble</h1>
+
+
+        <nav>
+            <a href="home.html" >HOME</a>
+            <a href="aboutus.html" >ABOUT US</a>
+            <a href="User.html" >LOGIN</a>
+            <a href="" class="current" >DONATE NOW</a>
+        </nav>
+    </header>
+    <div id="donate">
+	<h1>Things that you can Donate</h1>
+	<p id="info">You can donate items like toys that unused to you or your childrens,school bags,
+	dress as many people buy new clothes their old clothes can easy to be donate and old
+	shoes can also be donate.</p>
+		<p id="info1" >Click to donate</p>
+		<p id="info2" >Click to donate</p>
+		<p id="info3" >Click to donate</p>
+		<p id="info4" >Click to donate</p>
+
+	    <img src="../images/toy3.jpg" class="things" alt="Image of Toy" onmouseover="TextShow(this)" onmouseout="TextHide(this)" onclick="ShowForm(this)">
+	    <p class="itemsname">Toys</p>
+        <img src="../images/bag3.jpg" class="things" alt="Image of Bag" onmouseover="TextShow(this)" onmouseout="TextHide(this)" onclick="ShowForm(this)">
+        <p class="itemsname">Bags</p>
+        <img src="../images/clothes3.jpg" class="things" alt="Image of dress" onmouseover="TextShow(this)" onmouseout="TextHide(this)" onclick="ShowForm(this)">
+        <p class="itemsname">Dress</p>
+        <img src="../images/shoes3.jpg" class="things" alt="Image of shoes" onmouseover="TextShow(this)"onmouseout="TextHide(this)" onclick="ShowForm(this)">
+        <p class="itemsname">Shoes</p>
+    </div>
+    
+    <div id="donateform">
+        <div class="volunteerbox">
+    	<h1>Donation Form</h1><br>
+        <form>
+        <label for="">First Name</label><br>
+        <input type="text" name="" id="" placeholder="First name"><br><br>
+        <label for="">Last Name</label><br>
+        <input type="text" name="" id="" placeholder="Last name"><br><br>
+        <label for="">E-mail</label><br>
+        <input type="email" name="" id="" placeholder="e-mail"><br><br>
+        <label for="">Phone Number</label><br>
+        <input type="tel" name="" id="" placeholder="ph. number"><br><br>
+
+        Address<br>
+        <textarea name="" id="" cols="40" rows="5" placeholder="type here"></textarea><br><br>
+         
+        <label for="City">City</label>
+        <select name="" id="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Pune">Pune</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Latur">Latur</option>
+            <option value="Nashik">Nashik</option>
+        </select><br><br>
+
+        
+        <label for="">Select Gender  :</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" id="Other"><br><br>
+
+        <label for="Age">Age</label>
+        <input type="number" name="" id="Age" ><br><br>
+
+        
+        <label for="">Select which item do you want to donate:</label><br>
+        <label for="Toys">Toys</label>
+        <input type="radio" name="item" id="toys"><br>
+        <label for="Female">Bags</label>
+        <input type="radio" name="item" id="bags"><br>
+        <label for="Other">Dress</label>
+        <input type="radio" name="item" id="dress"><br>
+        <label for="Other">Shoes</label>
+        <input type="radio" name="item" id="shoes"><br><br>
+        <label for="Img" >Upload an image of an item:</label><br><br>
+        <input type="file" name=""><br><br>
+
+        <label for="quantity">How much quantity do you want to donate?</label>
+        <input type="number" name="" id="quantity" ><br><br>      
+
+        <label for="">Please describe the items that you want to donate like color,size,condition etc.</label><br>
+        <textarea name="" id="" cols="40" rows="5" placeholder="type here"></textarea><br><br>
+
+        
+        <label for="">Do you want us to visit you during working days?</label>
+        <input type="checkbox" name="" id=""><br><br>
+
+        
+
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    </div>
+    <footer>Follow us on <a href="">Instagram</a> <a href="">Facebook</a> <a href="">Twitter</a>
+     </br>Contact us on charitable@gmail.com
+     <br> &copy;Copyright 2020 Charitable.All Right Reserved.
+     <br>This website is developed by PRATIK. 
+    </footer>
+</body>
+</html>
